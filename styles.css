@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(135deg, #ffffff, #ffa07a); /* White to pinkish-orange gradient */
+  font-family: 'Cambria', cursive;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #393E46;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 160, 122, 0.5); /* Pinkish-orange shadow for a warm glow */
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dice {
+  text-align: center;
+  width: 30%;
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #FF6347; /* Tomato color to match the pinkish-orange theme */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 2rem;
+  color: #FF6347;
+}
+
+img {
+  width: 80%;
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.roll-button, .reset-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #FF6347; /* Tomato color */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.roll-button:hover, .reset-button:hover {
+  background-color: #FF4500; /* Darker shade for hover effect */
+}
+
+.roll-button:active, .reset-button:active {
+  transform: scale(0.98);
+}
+
+footer {
+  color: #393E46;
+  text-align: center;
+  font-family: 'Cambria', cursive;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
